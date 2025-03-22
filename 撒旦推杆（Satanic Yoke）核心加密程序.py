@@ -1,5 +1,5 @@
 from random import randint
-search={'A':.,'B':1,'C':2,'D':2} #凯撒加密基本位移量
+search={'A':3,'B':1,'C':2,'D':2} #凯撒加密基本位移量
 key=[] #单个字符的凯撒加密密钥
 change_key_list=[] #换位加密密钥
 def key_create(answer):  #每个答案生成专属的密钥
